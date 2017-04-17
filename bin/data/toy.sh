@@ -21,6 +21,7 @@ DATA_TYPE=${DATA_TYPE:-copy}
 echo "Using type=${DATA_TYPE}. To change this set DATA_TYPE to 'copy' or 'reverse'"
 
 OUTPUT_DIR=${OUTPUT_DIR:-$HOME/nmt_data/toy_${DATA_TYPE}}
+OUTPUT_DIR=${BASE_DIR}/output/nmt_data/toy_${DATA_TYPE}
 echo "Writing to ${OUTPUT_DIR}. To change this, set the OUTPUT_DIR environment variable."
 
 OUTPUT_DIR_TRAIN="${OUTPUT_DIR}/train"

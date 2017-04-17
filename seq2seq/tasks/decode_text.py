@@ -185,4 +185,4 @@ class DecodeText(InferenceTask):
 
       sent = sent.strip()
 
-      print(sent)
+      print(sent.encode('gbk'))

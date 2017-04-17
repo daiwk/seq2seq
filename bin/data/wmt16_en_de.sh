@@ -19,6 +19,11 @@ set -e
 BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/../.." && pwd )"
 
 OUTPUT_DIR=${OUTPUT_DIR:-$HOME/nmt_data/wmt16_de_en}
+OUTPUT_DIR=${BASE_DIR}/output/nmt_data/wmt16_de_en
+
+echo $BASE_DIR
+echo $OUTPUT_DIR
+
 echo "Writing to ${OUTPUT_DIR}. To change this, set the OUTPUT_DIR environment variable."
 
 OUTPUT_DIR_DATA="${OUTPUT_DIR}/data"
